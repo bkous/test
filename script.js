@@ -14,3 +14,19 @@ console.log(mainHeadingIdText);
 let mainHeadingClassText = document.getElementsByClassName("ninja")[0].textContent;
 
 console.log(mainHeadingClassText);
+
+let mainHeadingId = document.getElementById("hello");
+mainHeadingId.textContent = "Hello, new heading!";
+
+// mainHeadingId.style.color = "red";
+
+mainHeadingId.classList.add("green-text");
+
+mainHeadingId.classList.remove("green.text");
+mainHeadingId.classList.add("blue-text");
+
+function changeToRed() {
+    let mainHeadingId = document.getElementById("Smart");
+    mainHeadingId.classList.add("red-text");
+
+}
