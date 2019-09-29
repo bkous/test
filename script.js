@@ -30,3 +30,13 @@ function changeToRed() {
     mainHeadingId.classList.add("red-text");
 
 }
+
+function changeToYellow() {
+    let mainHeadingId = document.getElementById("Blender");
+    mainHeadingId.classList.add("yellow-text");
+
+}
+
+let yellowButton = document.getElementById("yellowButton");
+yellowButton.addEventListener("mouseover", changeToYellow);
+console.log("mouseover");
